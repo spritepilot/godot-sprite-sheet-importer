@@ -1,0 +1,6 @@
+.godot/
+*.import
+.DS_Store
+# outputs the tests make
+tests/fixtures/*/*.tres
+tests/fixtures/errors/

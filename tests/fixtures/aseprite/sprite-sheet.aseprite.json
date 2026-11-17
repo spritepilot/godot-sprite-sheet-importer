@@ -1,0 +1,163 @@
+{
+  "frames": {
+    "sprite_0001.png": {
+      "frame": {
+        "x": 5,
+        "y": 3,
+        "w": 8,
+        "h": 10
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 2,
+        "y": 3,
+        "w": 8,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 24,
+        "h": 24
+      },
+      "duration": 100
+    },
+    "sprite_0002.png": {
+      "frame": {
+        "x": 21,
+        "y": 3,
+        "w": 12,
+        "h": 10
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 4,
+        "y": 6,
+        "w": 12,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 24,
+        "h": 24
+      },
+      "duration": 100
+    },
+    "sprite_0003.png": {
+      "frame": {
+        "x": 41,
+        "y": 3,
+        "w": 8,
+        "h": 10
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 6,
+        "y": 9,
+        "w": 8,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 24,
+        "h": 24
+      },
+      "duration": 300
+    },
+    "sprite_0004.png": {
+      "frame": {
+        "x": 3,
+        "y": 19,
+        "w": 12,
+        "h": 10
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 8,
+        "y": 3,
+        "w": 12,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 24,
+        "h": 24
+      },
+      "duration": 100
+    },
+    "sprite_0005.png": {
+      "frame": {
+        "x": 23,
+        "y": 19,
+        "w": 8,
+        "h": 10
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 6,
+        "w": 8,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 24,
+        "h": 24
+      },
+      "duration": 100
+    },
+    "sprite_0006.png": {
+      "frame": {
+        "x": 39,
+        "y": 19,
+        "w": 12,
+        "h": 10
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 12,
+        "y": 9,
+        "w": 12,
+        "h": 10
+      },
+      "sourceSize": {
+        "w": 24,
+        "h": 24
+      },
+      "duration": 200
+    }
+  },
+  "meta": {
+    "app": "SpritePilot",
+    "version": "1.0",
+    "image": "sprite-sheet.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 54,
+      "h": 32
+    },
+    "scale": "1",
+    "frameTags": [
+      {
+        "name": "walk",
+        "from": 3,
+        "to": 5,
+        "direction": "forward"
+      },
+      {
+        "name": "hit",
+        "from": 0,
+        "to": 2,
+        "direction": "pingpong"
+      },
+      {
+        "name": "back",
+        "from": 0,
+        "to": 5,
+        "direction": "reverse"
+      }
+    ],
+    "layers": [],
+    "slices": []
+  }
+}
